@@ -1,0 +1,271 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+.major_events{
+	background-color: black;
+	color: white;
+    text-align: center;
+}
+#day_1
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 50vh;
+   width: 100%;
+   padding-bottom: 15px;
+   background: black;
+}
+.event_day{
+   text-align: center;
+   color: white;
+   padding-top: 10px;
+}
+.events
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+.events .event_card
+{
+   width: 320px;
+   height: 100%;
+   padding: 20px 20px;
+   margin: 20px;
+   background: #f2f3f7;
+   box-shadow: 0 0 1.3em #9a9898;
+   border-radius: 20px;
+}
+.events .event_card .event_info
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.events .event_card .event_info .event_info_img
+{
+   width: 320px;
+   height: 190px;
+   /* border-radius: 50%; */
+   position: relative;
+   margin: 4px 0;
+   overflow: hidden;
+}
+.events .event_card .event_info .event_info_img img
+{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 20px;
+}
+.events .event_card .event_info .event_info_name h4
+{
+   color: #36187d;
+   font-size: 1.7rem;
+   font-weight: bold;
+   text-align: center;
+   letter-spacing: 1px;
+}
+.events .event_card .event_info .event_info_name h5
+{
+   color: #6c758f;
+   font-size: 1.2rem;
+   font-weight: bold;
+   text-align: center;
+}
+
+@media (max-width:503px){
+	.events .event_card {
+		width: 320px;
+		height: 100%;
+		padding: 20px 20px;
+		margin: 20px;
+	}
+
+
+	.events .event_card .event_info .event_info_name h5 {
+		font-size: 1.05rem;
+	}
+}
+@media (max-width:490px){
+
+	.events .event_card .event_info .event_info_name h5 {
+		font-size: 1.05rem;
+	}
+}
+@media (max-width:380px){
+	.events .event_card {
+      width: 235px;
+      height: 100%;
+		padding: 20px 20px;
+		margin: 20px;
+	}
+	.events .event_card .event_info .event_info_img {
+      width: 230px;
+      height: 160px;  
+    	align-items: center;
+	}
+	.events .event_card .event_info .event_info_name h4 {
+		font-size: 1.6rem;
+	}
+	.events .event_card .event_info .event_info_name h5 {
+		font-size: 1.0rem;
+	}
+}
+
+
+/* Yearly Events 
+-------------------------------------------------------------------------------------------------------------------------------------- */
+
+.yearly_events{
+	background-color: black;
+	color: white;
+    text-align: center;
+}
+#all_events
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 50vh;
+   width: 100%;
+   padding-bottom: 15px;
+   background: black;
+}
+.all_events_name{
+   text-align: center;
+   color: white;
+   padding-top: 10px;
+}
+.events
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+.events .allevent_card
+{
+   width: 320px;
+   height: 100%;
+   padding: 20px 20px;
+   margin: 20px;
+   background: #f2f3f7;
+   box-shadow: 0 0 1.3em #9a9898;
+   border-radius: 20px;
+}
+.events .allevent_card .event_info
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.events .allevent_card .event_info .event_info_img
+{
+   width: 320px;
+   height: 190px;
+   /* border-radius: 50%; */
+   position: relative;
+   margin: 4px 0;
+   overflow: hidden;
+}
+.events .allevent_card .event_info .event_info_img img
+{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 20px;
+}
+.events .allevent_card .event_info .event_info_name h4
+{
+   color: #36187d;
+   font-size: 1.7rem;
+   font-weight: bold;
+   text-align: center;
+   letter-spacing: 1px;
+}
+.events .allevent_card .event_info .event_info_name h5
+{
+   color: #6c758f;
+   font-size: 1.2rem;
+   font-weight: bold;
+   text-align: center;
+}
+
+@media (max-width:1345px){
+	.events .allevent_card {
+		width: 370px;
+		height: 100%;
+		padding: 20px 20px;
+		margin: 20px;
+	}
+   .events .allevent_card .event_info .event_info_img {
+      width: 350px;
+      height: 230px;
+   }
+
+	.events .allevent_card .event_info .event_info_name h5 {
+		font-size: 1.05rem;
+	}
+}
+@media (max-width:900px){
+	.events .allevent_card {
+		width: 320px;
+		height: 100%;
+		padding: 20px 20px;
+		margin: 20px;
+	}
+   .events .allevent_card .event_info .event_info_img {
+      width: 320px;
+      height: 190px;
+   }
+}
+@media (max-width:503px){
+	.events .allevent_card {
+		width: 320px;
+		height: 100%;
+		padding: 20px 20px;
+		margin: 20px;
+	}
+
+
+	.events .allevent_card .event_info .event_info_name h5 {
+		font-size: 1.05rem;
+	}
+}
+@media (max-width:490px){
+
+	.events .event_card .event_info .event_info_name h5 {
+		font-size: 1.05rem;
+	}
+}
+@media (max-width:380px){
+	.events .allevent_card {
+      width: 235px;
+      height: 100%;
+		padding: 20px 20px;
+		margin: 20px;
+	}
+	.events .allevent_card .event_info .event_info_img {
+      width: 230px;
+      height: 160px;  
+    	align-items: center;
+	}
+	.events .allevent_card .event_info .event_info_name h4 {
+		font-size: 1.6rem;
+	}
+	.events .allevent_card .event_info .event_info_name h5 {
+		font-size: 1.0rem;
+	}
+}
